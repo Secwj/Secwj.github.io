@@ -7,7 +7,7 @@ tags: [Linux, Sql Injection, Information Leakage, Wordpress Enumeration, Plugin 
 ![](/assets/img/Tiny/tiny.png)
 
 Hola a todos! El día de hoy vamos a resolver una máquina realmente interesante creada por [cromiphi](https://www.youtube.com/@cromiphi). Esta es una máquina Linux de 
-dificultad Hard.
+díficultad Hard.
 
 ## Enumeración
 ---
@@ -31,7 +31,7 @@ nmap -p- --open -sS --min-rate 5000 -n -vvv -Pn 192.168.101.7 -oG allports
 
 ![](/assets/img/Tiny/escaneo.png)
 
-Utilizamos el la utilidad extractPorts del señor [savitar](https://github.com/s4vitar)  para extraer los puertos y
+Utilizamos  la utilidad extractPorts del señor [savitar](https://github.com/s4vitar)  para extraer los puertos y
 tenerlos copiados en la clipboard.
 
 ```bash
